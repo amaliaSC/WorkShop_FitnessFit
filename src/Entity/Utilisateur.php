@@ -28,7 +28,7 @@ class Utilisateur
     private $Prenom;
 
     /**
-     * @ORM\Column((type="string", length=255))
+     * @ORM\Column(type="string", length=255)
      */
     private $email;
 

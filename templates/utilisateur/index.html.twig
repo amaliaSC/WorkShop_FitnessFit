@@ -11,28 +11,19 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Nom</th>
-      <th scope="col">Prenom</th>
-      <th scope="col">Date Naissance</th>
+      <th scope="col">Prénom</th>
+      <th scope="col">Rôle</th>
     </tr>
   </thead>
   <tbody>
+    {# {% for utilisateurs in utilisateur %}
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">{{utilisateur.id }}</th>
+      <td>{{utilisateur.nom }}</td>
+      <td>{{utilisateur.Prenom }}</td>
+      <td>{{utilisateur.Role }}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+    {% endfor %} #}
   </tbody>
 </table>
 
